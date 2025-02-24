@@ -7,13 +7,14 @@ function Add() {
 
     if (d !== "") {
         dataList.push(d);
+        
 
         adding.innerHTML = "";
 
         for (var i = 0; i < dataList.length; i++) {
             adding.innerHTML += "<li>" + dataList[i] + "</li>";
         }
-
+// changes is completed
         document.getElementById("simple").value = "";
     }
 }
